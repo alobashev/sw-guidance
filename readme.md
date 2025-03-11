@@ -2,9 +2,7 @@
 
 This repository contains the source code and instructions for reproducing the results presented in our paper. SW-Guidance modifies the image generation process of diffusion models by incorporating the color distribution of a reference image directly into the sampling mechanism, thereby overcoming the limitations of sequential text-to-image and style-transfer approaches.
 
-<img src="figures/main_image.png" width="100%">  
-<img src="figures/main_scheme_short.png" width="100%">  
-<img src="figures/intro_image_with_prompts.png" width="100%">  
+<!-- <img src="figures/main_image.png" width="100%">   -->
 
 ## Abstract
 
@@ -15,6 +13,9 @@ We propose SW-Guidance, a training-free approach for image generation conditione
 - **Training-Free Approach:** No extra training is required.
 - **Color-Conditional Generation:** Directly conditions image generation on a reference color palette.
 - **Enhanced Sampling:** Incorporates Sliced 1-Wasserstein distance to align the generated image’s colors with the reference.
+
+<img src="figures/main_scheme_short.png" width="100%">  
+<img src="figures/intro_image_with_prompts.png" width="100%">  
 
 ## Compatibility with ControlNets  
 
