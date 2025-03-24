@@ -1,6 +1,6 @@
-# [CVPR 2025] Color Conditional Generation with Sliced Wasserstein Distance
+# [CVPR 2025] Color Conditional Generation with Sliced Wasserstein Guidance
 
-This repository contains the source code and instructions for reproducing the results presented in our paper. SW-Guidance modifies the image generation process of diffusion models by incorporating the color distribution of a reference image directly into the sampling mechanism, thereby overcoming the limitations of sequential text-to-image and style-transfer approaches.
+This repository contains the source code and instructions for reproducing the results presented in our CVPR 2025 paper "Color Conditional Generation with Sliced Wasserstein Guidance" by Alexander Lobashev, Maria Larchenko and Dmitry Guskov. SW-Guidance modifies the image generation process of diffusion models by incorporating the color distribution of a reference image directly into the sampling mechanism, thereby overcoming the limitations of sequential text-to-image and style-transfer approaches.
 
 <!-- <img src="figures/main_image.png" width="100%">   -->
 
