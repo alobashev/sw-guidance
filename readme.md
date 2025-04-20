@@ -40,21 +40,13 @@ pip install -r requirements.txt
 ```
 
 ## Usage
+
+Please refer to Demo_SDXL_SW_Guidance.ipynb
 # TODO
 To generate an image, run the following command:
-
 ```bash
 python generate.py --prompt "A description of your image" --reference_path "path/to/reference.jpg"
 ```
-
-- Replace `"A description of your image"` with your desired text prompt.
-- Replace `"path/to/reference.jpg"` with the path to your reference image.
-
-Additional parameters and options are available. Please refer to the [Usage Guide](docs/usage.md) for more details.
-
-## Results
-
-You can find some sample outputs and comparisons with state-of-the-art techniques in the [Results](docs/results.md) section
 
 ## Citation
 
