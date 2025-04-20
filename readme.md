@@ -40,7 +40,7 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-
+# TODO
 To generate an image, run the following command:
 
 ```bash
