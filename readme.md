@@ -1,4 +1,8 @@
-# Color Conditional Generation with Sliced Wasserstein Guidance
+# [NeurIPS 2025, spotlight] Color Conditional Generation with Sliced Wasserstein Guidance
+
+News:
+
+- 22 September 2025: SW-Guidance accepted for spotlight presentation at NeurIPS 2025!
 
 arXiv: https://arxiv.org/abs/2503.19034
 
@@ -59,3 +63,4 @@ If you use our work, please cite the paper as follows:
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
