@@ -4,6 +4,8 @@ News:
 
 - 22 September 2025: SW-Guidance accepted for spotlight presentation at NeurIPS 2025!
 
+- https://neurips.cc/virtual/2025/poster/115823
+
 arXiv: https://arxiv.org/abs/2503.19034
 
 This repository contains the source code and instructions for reproducing the results presented in our paper "Color Conditional Generation with Sliced Wasserstein Guidance" by Alexander Lobashev, Maria Larchenko and Dmitry Guskov. SW-Guidance modifies the image generation process of diffusion models by incorporating the color distribution of a reference image directly into the sampling mechanism, thereby overcoming the limitations of sequential text-to-image and style-transfer approaches.
@@ -63,4 +65,5 @@ If you use our work, please cite the paper as follows:
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
 
