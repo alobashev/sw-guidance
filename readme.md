@@ -44,7 +44,7 @@ Our method is compatible with ControlNets, allowing for even more precise contro
 Clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/your_username/sw-guidance.git
+git clone https://github.com/alobashev/sw-guidance.git
 cd sw-guidance
 pip install -r requirements.txt
 ```
@@ -52,10 +52,10 @@ pip install -r requirements.txt
 ## Usage
 
 Please refer to Demo_SDXL_SW_Guidance.ipynb
-# TODO
+
 To generate an image, run the following command:
 ```bash
-python generate.py --prompt "A description of your image" --reference_path "path/to/reference.jpg"
+python sdxl_sw_guidance.py"
 ```
 
 ## Citation
@@ -63,12 +63,18 @@ python generate.py --prompt "A description of your image" --reference_path "path
 If you use our work, please cite the paper as follows:
 
 ```
-
+@inproceedings{lobashev2025color,
+  title        = {Color Conditional Generation with Sliced Wasserstein Guidance},
+  author       = {Lobashev, Alexander and Larchenko, Maria and Guskov, Dmitry},
+  booktitle    = {Proceedings of the 39th Annual Conference on Neural Information Processing Systems (NeurIPS)},
+  year         = {2025}
+}
 ```
 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
 
 
 
