@@ -55,8 +55,12 @@ Please refer to Demo_SDXL_SW_Guidance.ipynb
 
 To generate an image, run the following command:
 ```bash
-python sdxl_sw_guidance.py"
+python sdxl_sw_guidance.py
+
+python run_sw_guidance_sd_1_5.py
 ```
+
+
 
 ## Citation
 
@@ -74,6 +78,7 @@ If you use our work, please cite the paper as follows:
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
 
 
 
