@@ -4,11 +4,9 @@ News:
 
 - 22 September 2025: SW-Guidance accepted for spotlight presentation at NeurIPS 2025!
 
-- https://neurips.cc/virtual/2025/poster/115823
+- NeurIPS 2025 page: https://neurips.cc/virtual/2025/poster/115823
 
-arXiv: https://arxiv.org/abs/2503.19034
-
-<img src="sw_guidance_poster.png" width="100%">  
+- arXiv: https://arxiv.org/abs/2503.19034
 
 This repository contains the source code and instructions for reproducing the results presented in our paper "Color Conditional Generation with Sliced Wasserstein Guidance" by Alexander Lobashev, Maria Larchenko and Dmitry Guskov. SW-Guidance modifies the image generation process of diffusion models by incorporating the color distribution of a reference image directly into the sampling mechanism, thereby overcoming the limitations of sequential text-to-image and style-transfer approaches.
 
@@ -17,6 +15,10 @@ This repository contains the source code and instructions for reproducing the re
 ## Abstract
 
 We propose SW-Guidance, a training-free approach for image generation conditioned on the color distribution of a reference image. While it is possible to generate an image with fixed colors by first creating an image from a text prompt and then applying a color style transfer method, this approach often results in semantically meaningless colors in the generated image. Our method solves this problem by modifying the sampling process of a diffusion model to incorporate the differentiable Sliced 1-Wasserstein distance between the color distribution of the generated image and the reference palette. Our method outperforms state-of-the-art techniques for color-conditional generation in terms of color similarity to the reference, producing images that not only match the reference colors but also maintain semantic coherence with the original text prompt.
+
+## Poster
+
+<img src="sw_guidance_poster.png" width="100%">
 
 ## Features
 
@@ -67,6 +69,7 @@ If you use our work, please cite the paper as follows:
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
 
 
 
