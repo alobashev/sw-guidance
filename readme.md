@@ -8,6 +8,8 @@ News:
 
 arXiv: https://arxiv.org/abs/2503.19034
 
+<img src="sw_guidance_poster.png" width="100%">  
+
 This repository contains the source code and instructions for reproducing the results presented in our paper "Color Conditional Generation with Sliced Wasserstein Guidance" by Alexander Lobashev, Maria Larchenko and Dmitry Guskov. SW-Guidance modifies the image generation process of diffusion models by incorporating the color distribution of a reference image directly into the sampling mechanism, thereby overcoming the limitations of sequential text-to-image and style-transfer approaches.
 
 <!-- <img src="figures/main_image.png" width="100%">   -->
@@ -65,5 +67,6 @@ If you use our work, please cite the paper as follows:
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
 
 
